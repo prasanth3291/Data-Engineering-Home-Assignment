@@ -17,8 +17,7 @@ Before running this project, ensure you have the following:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/data-engineering-home-assignment.git
-cd data-engineering-home-assignment
+git clone https://github.com/prasanth3291/Data-Engineering-Home-Assignment.git
 
 ```
 ### 2. Set Up Snowflake
