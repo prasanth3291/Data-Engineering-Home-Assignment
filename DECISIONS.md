@@ -49,16 +49,17 @@ This document outlines the key steps and decisions made during the completion of
     dbt_banxware_assignment:
       outputs:
         dev:
-          type: snowflake
           account: <your_snowflake_account_details>
           database: home_assignment
-          user: <your username>
           password: <your_password>
+          host: <your host name>
+          port: 443
           role: sysadmin
           schema: public
-          warehouse: COMPUTE_WH
           threads: 4
-          port: 443
+          type: snowflake
+          user: <your username>
+          warehouse: COMPUTE_WH
       target: dev
     ```
 
