@@ -91,7 +91,7 @@ Once your CSV files are placed in the `seeds` directory, run the following comma
 dbt seed
 
 ```
-### Run the Models
+### 6 . Run the Models
 Use the following command to run the models, which will create views and apply transformations on the data:
 
 ```bash
