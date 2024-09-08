@@ -1,0 +1,15 @@
+dbt_banxware_assignment:
+  outputs:
+    dev:
+      account: <your_snowflake_account_details>
+      database: home_assignment
+      password: <your_password>
+      host: <your host name>
+      port: 443
+      role: sysadmin
+      schema: public
+      threads: 4
+      type: snowflake
+      user: <your username>
+      warehouse: COMPUTE_WH
+  target: dev
